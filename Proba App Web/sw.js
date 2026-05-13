@@ -3,8 +3,8 @@ const CACHE_NAME = 'Reservas App';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/style.css',
-  '/app.js'
+  '/manifest.json'
+  // Elimina /style.css y /app.js si no los tienes como archivos aparte
 ];
 
 self.addEventListener('install', event => {
